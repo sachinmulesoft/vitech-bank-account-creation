@@ -1,0 +1,23 @@
+http:
+  port: "8081"
+ 
+db:
+  host: "localhost"
+  post: "3306"
+  user: "root"
+  password: "root"
+  database: "BFS"
+
+insert:
+  query:insert into Bank_Transactions (custName, custAccNum, atmPin, bankName, accountType, ifscCode, branchName, transactionTimeStamp, mailld, phoneNumber) values (:custName, :custAccNum, :atmPin, :bankName, :accountType, :ifscCode, :branchName, :transactionTimeStamp, :mailld, :phoneNumber);
+  
+email:
+  host: "smtp.gmail.com" 
+  port: "587"
+  user: "sachinpareetf1999@gmail.com"
+  password: "ppkcpdkygqtsanze"  
+
+     
+    
+    
+    
